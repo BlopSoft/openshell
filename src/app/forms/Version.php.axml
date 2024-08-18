@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  </class>
+<class name="Close">
+    <method name="doButtonClickRight">
+      <hideForm form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonAltClickRight">
+      <applicationShutdown/>
+    </method>
+  </class>
+<class name="Version">
+    
+  
+  <method name="doButtonClick">
+      <hideForm form="Version" form-type="form"/>
+    </method>
+  
+  <method name="doLabelAltClick">
+      <browse url="https://t.me/blopsoft" url-type="string"/>
+    </method>
+  <method name="doLabel6Click">
+      <showFormAndWait form="riba" form-type="form"/>
+    </method>
+  <method name="doImageAltClick">
+      <toast value="да это ты" value-type="string"/>
+    </method>
+    
+  <method name="doImage3Click">
+      <toast value="OpenOne!" value-type="string"/>
+    </method>
+    
+  <method name="doLabel3Click">
+      <showFormAndWait form="license" form-type="form"/>
+    </method>
+  </class>
+</root>

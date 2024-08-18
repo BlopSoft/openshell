@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  
+  
+    
+  
+  <method name="doButtonClick">
+      <showFormAndWait form="Settings" form-type="form"/>
+    </method>
+  <method name="doButtonAltClick">
+      <showFormAndWait form="Browser" form-type="form"/>
+    </method>
+    
+  <method name="doButton3Click">
+      <showFormAndWait form="blopstore" form-type="form"/>
+    </method>
+    
+  <method name="doButton4Click">
+      <showFormAndWait form="calculator" form-type="form"/>
+    </method>
+  </class>
+<class name="error_screen1">
+    <method name="doConstruct">
+      <showFormAndWait form="error_screen2" form-type="form"/>
+    </method>
+  </class>
+<class name="crashscr1">
+    
+  <method name="doConstruct">
+      <fullScreenEnable/>
+      <showFormAndWait form="crashscr2" form-type="form"/>
+    </method>
+  </class>
+<class name="sleep_mode">
+    <method name="doConstruct">
+      <fullScreenEnable/>
+    </method>
+  
+  
+  
+  <method name="doKeyDown">
+      <showFormAndWait form="LogonShell_1" form-type="form"/>
+      <hideForm form="sleep_mode" form-type="form"/>
+    </method>
+  </class>
+</root>

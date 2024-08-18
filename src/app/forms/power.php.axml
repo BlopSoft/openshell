@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  </class>
+<class name="Close">
+    
+  
+    
+  <method name="doButtonClick">
+      <hideForm form="Close" form-type="form"/>
+    </method>
+  <method name="doButton3Click">
+      <hideForm form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonAltClick">
+      <applicationShutdown/>
+    </method>
+  </class>
+<class name="runwindow">
+    
+  <method name="doButtonClick">
+      <hideForm form="runwindow" form-type="form"/>
+    </method>
+  
+  
+  <method name="doButtonAltClick">
+      <elementSetValue object="start" object-type="variable" relative="" relative-type="" value="edit" value-type="object"/>
+      <loadForm form="start" form-type="variable" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doConstruct">
+      <elementSetValue object="start" object-type="variable" relative="" relative-type="" value="" value-type="string"/>
+    </method>
+  </class>
+<class name="power">
+    <method name="doButtonClick">
+      <hideForm form="power" form-type="form"/>
+    </method>
+    
+    <method name="doButton7Click">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  <method name="doButton6Click">
+      <showForm form="LogonShell_1" form-type="form"/>
+      <hideForm form="Screen" form-type="form"/>
+      <hideForm form="MainForm" form-type="form"/>
+      <hideForm form="power" form-type="form"/>
+    </method>
+  
+  <method name="doButtonAltClick">
+      <hideForm form="Screen" form-type="form"/>
+      <hideForm form="MainForm" form-type="form"/>
+      <loadForm form="sleep_mode" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+</root>

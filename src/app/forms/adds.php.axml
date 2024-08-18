@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonClickRight">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+  </class>
+<class name="Settings">
+    
+  
+  
+  <method name="doButtonClick">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+    
+  <method name="doButtonAltClick">
+      <hideForm form="Settings" form-type="form"/>
+    </method>
+  <method name="doButton3Click">
+      <showFormAndWait form="accountmanaging" form-type="form"/>
+    </method>
+  </class>
+<class name="adds">
+    
+  <method name="doButtonAltClick">
+      <hideForm form="adds" form-type="form"/>
+    </method>
+  <method name="doLabelClick">
+      <showFormAndWait form="betaprogram" form-type="form"/>
+    </method>
+    
+  <method name="doLabel3Click">
+      <showFormAndWait form="license" form-type="form"/>
+    </method>
+  </class>
+</root>

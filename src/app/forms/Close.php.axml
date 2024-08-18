@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  </class>
+<class name="Close">
+    
+  
+    
+  <method name="doButtonClick">
+      <hideForm form="Close" form-type="form"/>
+    </method>
+  <method name="doButton3Click">
+      <hideForm form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonAltClick">
+      <applicationShutdown/>
+    </method>
+  </class>
+</root>

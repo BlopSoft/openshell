@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonClickRight">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+  </class>
+<class name="Settings">
+    
+  
+  
+  <method name="doButtonClick">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+    
+  <method name="doButtonAltClick">
+      <hideForm form="Settings" form-type="form"/>
+    </method>
+  
+    
+  
+  
+  <method name="doButton5Click">
+      <showFormAndWait form="devlist" form-type="form"/>
+    </method>
+    
+  <method name="doButton6Click">
+      <showFormAndWait form="updates" form-type="form"/>
+    </method>
+  
+  <method name="doButton7Click">
+      <showFormAndWait form="BlopConnect" form-type="form"/>
+    </method>
+  
+  <method name="doButton3Click">
+      <toast value="ТГК: @blopsoft" value-type="string"/>
+      <browse url="https://t.me/blopsoft" url-type="string"/>
+    </method>
+  
+  
+  <method name="doButton4Click">
+      <showFormAndWait form="adds" form-type="form"/>
+    </method>
+    
+  <method name="doButton8Click">
+      <showFormAndWait form="Mobile_Emulator" form-type="form"/>
+    </method>
+  <method name="doImageClick">
+      <toast value="да это ты" value-type="string"/>
+    </method>
+    
+  <method name="doButton9Click">
+      <showFormAndWait form="license" form-type="form"/>
+    </method>
+  </class>
+</root>

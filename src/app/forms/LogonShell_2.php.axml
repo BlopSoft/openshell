@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  
+  
+    
+  
+  <method name="doButtonClick">
+      <showFormAndWait form="Settings" form-type="form"/>
+    </method>
+  <method name="doButtonAltClick">
+      <showFormAndWait form="Browser" form-type="form"/>
+    </method>
+    
+  <method name="doButton3Click">
+      <showFormAndWait form="blopstore" form-type="form"/>
+    </method>
+    
+  <method name="doButton4Click">
+      <showFormAndWait form="calculator" form-type="form"/>
+    </method>
+    
+  <method name="doButton5Click">
+      <showFormAndWait form="music" form-type="form"/>
+    </method>
+  </class>
+<class name="LogonShell_2">
+    
+  
+  <method name="doButtonAltClick">
+      <showFormAndWait form="clicker" form-type="form"/>
+    </method>
+  
+  
+  <method name="doButtonClick">
+      <hideForm form="LogonShell_1" form-type="form"/>
+      <loadForm form="Screen" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  
+  <method name="doButton3Click">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  <method name="doImageClick">
+      <toast value="это твоя аватарка :D" value-type="string"/>
+    </method>
+  <method name="doLabel3Click">
+      <showFormAndWait form="license" form-type="form"/>
+    </method>
+  </class>
+</root>

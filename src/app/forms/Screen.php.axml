@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Screen">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doConstruct">
+      <fullScreenEnable/>
+    <showFormAndWait form="MainForm" form-type="form"/>
+    </method>
+  </class>
+</root>

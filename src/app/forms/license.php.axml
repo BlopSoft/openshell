@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonClickRight">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+  </class>
+<class name="Settings">
+    
+  
+  
+  <method name="doButtonClick">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+    
+  <method name="doButtonAltClick">
+      <hideForm form="Settings" form-type="form"/>
+    </method>
+  <method name="doButton3Click">
+      <showFormAndWait form="accountmanaging" form-type="form"/>
+    </method>
+  </class>
+<class name="betaprogram">
+    <method name="doButtonAltClick">
+      <hideForm form="betaprogram" form-type="form"/>
+    </method>
+  </class>
+<class name="devlist">
+    <method name="doButtonAltConstruct">
+      <hideForm form="devlist" form-type="form"/>
+    </method>
+  </class>
+<class name="updates">
+    <method name="doButtonAltClick">
+      <hideForm form="updates" form-type="form"/>
+    </method>
+  </class>
+<class name="license">
+    <method name="doTextAreaClick">
+      <toast value="лицензия! не нарушать!" value-type="string"/>
+    </method>
+  <method name="doButtonAltClick">
+      <hideForm form="license" form-type="form"/>
+    </method>
+  </class>
+</root>

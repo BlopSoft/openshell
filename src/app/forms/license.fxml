@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512" prefWidth="544" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="32" id="rect" layoutX="0" layoutY="0" strokeType="INSIDE" strokeWidth="2" styleClass="" width="544"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="480" id="rectAlt" layoutX="535" layoutY="32" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="9"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="480" id="rect3" layoutX="0" layoutY="32" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="9"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="9" id="rect4" layoutX="0" layoutY="503" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="544"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect4" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" prefHeight="20" prefWidth="472" styleClass="label " text="Лицензия" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Tahoma" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="472" id="rect5" layoutX="8" layoutY="32" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="528"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
+    <FlatButton alignment="CENTER" color="#990000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#990000" id="buttonAlt" layoutX="496" layoutY="0" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="X" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <TextArea editable="false" focusTraversable="true" id="textArea" layoutX="16" layoutY="40" prefColumnCount="40" prefHeight="456" prefWidth="512" promptText="" styleClass="text-input text-area " text="BSD-3 Clause:&#10;&#10;Если вы форкаете OpenShell, то вы должны указать Авторов (&#10;cat_flopper, Dibof228. OpenOne)&#10;Данный продукт нельзя защищать по DMCA.&#10;&#10;Код своего форка можно сделать открытым и закрытым.&#10;" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-textArea" visible="1"/>
+  </children>
+</AnchorPane>

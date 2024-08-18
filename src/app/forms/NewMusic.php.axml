@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonClickRight">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+  </class>
+<class name="Settings">
+    
+  <method name="doButtonClickRight">
+      <showFormAndWait form="Version" form-type="form"/>
+    </method>
+  <method name="doButtonAltClickRight">
+      <hideForm form="Settings" form-type="form"/>
+    </method>
+  </class>
+<class name="Browser">
+    
+  <method name="doButtonAltClick">
+      <hideForm form="Browser" form-type="form"/>
+    </method>
+  </class>
+<class name="blopstore">
+    <method name="doButtonAltClick">
+      <hideForm form="blopstore" form-type="form"/>
+    </method>
+  </class>
+<class name="music">
+    
+  <method name="doButton6Click">
+      <stopMedia id="1" id-type="string"/>
+      <stopMedia id="2" id-type="string"/>
+      <stopMedia id="3" id-type="string"/>
+      <stopMedia id="4" id-type="string"/>
+      <openMedia autoplay="1" autoplay-type="flag" id="1" id-type="string" source="res://.data/audio/DVRST, Игорь Скляр, Atomic Heart — Я уеду в Комарово Komarovo (DVRST Phonk Remix) (www.lightaudio.ru).mp3" source-type="string"/>
+    </method>
+  
+  
+  
+  <method name="doButton8Click">
+      <stopMedia id="1" id-type="string"/>
+      <stopMedia id="2" id-type="string"/>
+      <stopMedia id="3" id-type="string"/>
+      <stopMedia id="4" id-type="string"/>
+      <openMedia autoplay="1" autoplay-type="flag" id="2" id-type="string" source="res://.data/audio/Geometry Dash — Космос (www.lightaudio.ru).mp3" source-type="string"/>
+    </method>
+  <method name="doButtonClick">
+      <stopMedia id="1" id-type="string"/>
+      <stopMedia id="2" id-type="string"/>
+      <stopMedia id="3" id-type="string"/>
+      <stopMedia id="4" id-type="string"/>
+      <openMedia autoplay="1" autoplay-type="flag" id="3" id-type="string" source="res://.data/audio/shadowraze — sunder (www.lightaudio.ru).mp3" source-type="string"/>
+    </method>
+  
+  <method name="doButtonAltClick">
+      <hideForm form="music" form-type="form"/>
+    </method>
+  <method name="doButton3Click">
+      <pauseMedia id="2" id-type="string"/>
+    </method>
+  
+  <method name="doButton7Click">
+      <pauseMedia id="1" id-type="string"/>
+    </method>
+  <method name="doButton9Click">
+      <pauseMedia id="3" id-type="string"/>
+    </method>
+  </class>
+<class name="NewMusic">
+    <method name="doButtonAltClick">
+      <hideForm form="NewMusic" form-type="form"/>
+    </method>
+  </class>
+</root>

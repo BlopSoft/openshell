@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="startmenu">
+    
+  
+  <method name="doConstruct">
+      <fullScreenDisable/>
+      <fullScreenEnable/>
+    </method>
+  <method name="doButtonClick">
+      <loadForm form="allapps" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doImageAltClick">
+      <loadForm form="Screen" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+</root>

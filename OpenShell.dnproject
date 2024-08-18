@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Admin" authorOS="Windows 7" createdAt="1480488871172" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="BlopShell" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1723910149266">
+  <openedFiles>
+  <file src="BlopShell.dnproject"/>
+    <file src="src/app/forms/music.php"/>
+    <file src="src/app/forms/LogonShell_1.php"/>
+    <file selected="1" src="src/app/forms/LogonShell_2.php"/>
+    <file src="src/app/forms/devlist.php"/>
+    <file src="src/app/forms/runwindow.php"/>
+    <file src="src/app/forms/error_screen2.php"/>
+    <file src="src/app/forms/BlopConnect.php"/>
+    <file src="src/app/forms/startmenu.php"/>
+    <file src="src/app/forms/updates.php"/>
+    <file src="src/app/forms/adds.php"/>
+    <file src="src/app/forms/clicker.php"/>
+    <file src="src/app/forms/NewMusic.php"/>
+    <file src="src/app/forms/error_screen1.php"/>
+    <file src="src/app/forms/accountmanaging.php"/>
+    <file src="src/app/forms/blopstore.php"/>
+    <file src="src/app/forms/betaprogram.php"/>
+    <file src="src/app/forms/desktop.php"/>
+    <file src="src/app/forms/crashlog.php"/>
+    <file src="src/app/forms/crashscr1.php"/>
+    <file src="src/app/forms/crashscr2.php"/>
+    <file src="src/app/forms/shellcompat.php"/>
+    <file src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/Version.php"/>
+    <file src="src/app/forms/riba.php"/>
+    <file src="src/app/forms/Settings.php"/>
+    <file src="src/app/forms/power.php"/>
+  </openedFiles>
+  <files>
+  </files>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+  </behaviours>
+<tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+    </expanded>
+  </tree>
+</project>
