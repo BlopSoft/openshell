@@ -1,6 +1,7 @@
 [classes]
 app\forms\accountmanaging
 app\forms\adds
+app\forms\App
 app\forms\betaprogram
 app\forms\BlopConnect
 app\forms\blopstore
@@ -15,6 +16,7 @@ app\forms\desktop
 app\forms\devlist
 app\forms\error_screen1
 app\forms\error_screen2
+app\forms\HTML_Tester
 app\forms\license
 app\forms\LogonShell_1
 app\forms\LogonShell_2
@@ -30,6 +32,7 @@ app\forms\Screen
 app\forms\Settings
 app\forms\shellcompat
 app\forms\sleep_mode
+app\forms\StartInWindows
 app\forms\startmenu
 app\forms\updates
 app\forms\Version

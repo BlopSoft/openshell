@@ -190,6 +190,42 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
+    /**
+     * @event button13.click 
+     */
+    function doButton13Click(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('runwindow');
+
+        
+    }
+
+    /**
+     * @event button14.click 
+     */
+    function doButton14Click(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('StartInWindows');
+
+        
+    }
+
+    /**
+     * @event button15.click 
+     */
+    function doButton15Click(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('StartInWindows');
+
+        
+    }
+
 
 
 

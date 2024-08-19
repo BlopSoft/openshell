@@ -33,12 +33,27 @@
     </method>
   
   
-  <method name="doButtonAltClick">
-      <elementSetValue object="start" object-type="variable" relative="" relative-type="" value="edit" value-type="object"/>
-      <loadForm form="start" form-type="variable" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
-    </method>
+  
   <method name="doConstruct">
       <elementSetValue object="start" object-type="variable" relative="" relative-type="" value="" value-type="string"/>
+    </method>
+  
+  
+  
+  
+  <method name="doButtonAltClick">
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="onect" password-type="string"/>
+      <showFormAndWait form="BlopConnect" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="addsets/betaprg" password-type="string"/>
+      <showFormAndWait form="betaprogram" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="onect/music" password-type="string"/>
+      <showFormAndWait form="NewMusic" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="shellmusic" password-type="string"/>
+      <showFormAndWait form="music" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="riba" password-type="string"/>
+      <showFormAndWait form="riba" form-type="form"/>
+    <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="htmldev" password-type="string"/>
+      <showFormAndWait form="HTML_Tester" form-type="form"/>
     </method>
   </class>
 </root>

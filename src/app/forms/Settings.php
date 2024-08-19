@@ -20,13 +20,6 @@ class Settings extends AbstractForm
 
 
 
-    /**
-     * @event button.click 
-     */
-    function doButtonClick(UXMouseEvent $e = null)
-    {    
-        
-    }
 
 
     /**
@@ -38,10 +31,49 @@ class Settings extends AbstractForm
     }
 
 
+
+
+
+
+
+
+    /**
+     * @event image.click 
+     */
+    function doImageClick(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+
+    /**
+     * @event button10.click 
+     */
+    function doButton10Click(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event button.click 
+     */
+    function doButtonClick(UXMouseEvent $e = null)
+    {    
+        
+    }
+
     /**
      * @event button5.click 
      */
     function doButton5Click(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event button4.click 
+     */
+    function doButton4Click(UXMouseEvent $e = null)
     {    
         
     }
@@ -71,33 +103,9 @@ class Settings extends AbstractForm
     }
 
     /**
-     * @event button4.click 
-     */
-    function doButton4Click(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-    /**
      * @event button8.click 
      */
     function doButton8Click(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-    /**
-     * @event image.click 
-     */
-    function doImageClick(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-    /**
-     * @event button9.click 
-     */
-    function doButton9Click(UXMouseEvent $e = null)
     {    
         
     }

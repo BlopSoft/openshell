@@ -23,7 +23,7 @@
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
     <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="472" id="rect5" layoutX="8" layoutY="32" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="528"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="24" layoutY="88" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Настройки" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="336" layoutY="456" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Настройки" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
@@ -35,25 +35,25 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="buttonAlt" layoutX="176" layoutY="88" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneNet" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="buttonAlt" layoutX="24" layoutY="88" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneNet" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button3" layoutX="328" layoutY="88" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneStore" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button3" layoutX="176" layoutY="88" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneStore" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button4" layoutX="24" layoutY="128" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Калькулятор" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button4" layoutX="328" layoutY="88" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Калькулятор" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button5" layoutX="176" layoutY="128" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="BlopMusic" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button5" layoutX="24" layoutY="128" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="BlopMusic" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
@@ -67,41 +67,59 @@
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button9" layoutX="328" layoutY="128" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Что нового" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button9" layoutX="176" layoutY="128" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Что нового" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button9" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button10" layoutX="24" layoutY="168" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneConnect" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button10" layoutX="328" layoutY="128" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneConnect" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button8" layoutX="176" layoutY="168" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneMusic" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button8" layoutX="24" layoutY="168" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneMusic" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button11" layoutX="328" layoutY="168" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="ShellCompat" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button11" layoutX="176" layoutY="168" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="ShellCompat" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button11" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button7" layoutX="24" layoutY="208" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Эмулятор" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button7" layoutX="328" layoutY="168" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Эмулятор" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button12" layoutX="176" layoutY="208" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneGram" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button12" layoutX="24" layoutY="208" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneGram" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button12" visible="1"/>
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button13" layoutX="176" layoutY="456" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Выполнить" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button13" visible="1"/>
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button14" layoutX="176" layoutY="208" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Открыть" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button14" visible="1"/>
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button15" layoutX="328" layoutY="208" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="OneDev" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button15" visible="1"/>
   </children>
 </AnchorPane>

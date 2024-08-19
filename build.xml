@@ -1,6 +1,6 @@
-<project name="BlopShell" basedir=".">
+<project name="OpenShell" basedir=".">
     <!-- set global properties for this build -->
-    <property name="name" location="BlopShell"/>
+    <property name="name" location="OpenShell"/>
     <property name="build" location="build"/>
     <property name="dist" location="build/dist"/>
     <property name="launch4j.dir" location="C:\Program Files (x86)\DevelNext\tools\Launch4j" />
@@ -50,7 +50,7 @@
     </target>
 
     <target name="onejar" depends="dist">
-        <jar destfile="${dist}/BlopShell.jar" duplicate="preserve" level="7" encoding="UTF-8">
+        <jar destfile="${dist}/OpenShell.jar" duplicate="preserve" level="7" encoding="UTF-8">
             <fileset dir="${dist}/gen" />
             <zipfileset src="${dist}/lib/dn-compiled-module.jar" />
             <zipfileset src='${dist}/lib/asm-all.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-core.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-runtime.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/dn-php-sdk.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/gson.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-json-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-xml-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-gui-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-desktop-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-zend-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-app-framework.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/dyn4j.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-game-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jkeymaster.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jna.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-desktop-hotkey-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/slf4j-api.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/slf4j-simple.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jfoenix.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-gui-jfoenix-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-jsoup-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jsoup.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/activation.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/commons-email.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-mail-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/mail.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/HikariCP-java6.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/javassist-GA.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-sql-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/antlr4-runtime.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/connector-api.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jaybird-jdk18.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/mysql-connector-java.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/postgresql.jre7.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/sqlite-jdbc.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-systemtray-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/jphp-zip-ext.jar' excludes='JPHP-INF/sdk/** **/*.php' /> <zipfileset src='${dist}/lib/zt-zip.jar' excludes='JPHP-INF/sdk/** **/*.php' />
@@ -77,9 +77,9 @@
 
     <target name="launch4j">
         <launch4j>
-            <config headerType="gui" outfile="${dist}/BlopShell.exe"
+            <config headerType="gui" outfile="${dist}/OpenShell.exe"
                     dontWrapJar="true" jarPath="" chdir="."
-                    downloadUrl="http://java.com/download" icon="C:\Users\Flopper\AppData\Local\Temp\152784f2-e2a2-4d62-a8ee-4b6fe218fd4a4413270334755714537.ico">
+                    downloadUrl="http://java.com/download" icon="C:\Users\Flopper\AppData\Local\Temp\d04cc014-721b-4506-80a9-976e1df163469047559232891114674.ico">
                 <classPath mainClass="org.develnext.jphp.ext.javafx.FXLauncher">
                     <cp>lib/*</cp>
                 </classPath>

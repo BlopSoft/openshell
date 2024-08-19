@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  <method name="doRect5GlobalKeyDownEsc">
+      <showFormAndWait form="Close" form-type="form"/>
+    </method>
+  </class>
+<class name="Close">
+    
+  
+    
+  <method name="doButtonClick">
+      <hideForm form="Close" form-type="form"/>
+    </method>
+  <method name="doButton3Click">
+      <hideForm form="Close" form-type="form"/>
+    </method>
+  <method name="doButtonAltClick">
+      <applicationShutdown/>
+    </method>
+  </class>
+<class name="runwindow">
+    
+  <method name="doButtonClick">
+      <hideForm form="runwindow" form-type="form"/>
+    </method>
+  
+  
+  
+  <method name="doConstruct">
+      <elementSetValue object="start" object-type="variable" relative="" relative-type="" value="" value-type="string"/>
+    </method>
+  
+  
+  
+  
+  <method name="doButtonAltClick">
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="onect" password-type="string"/>
+      <showFormAndWait form="BlopConnect" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="addsets/betaprg" password-type="string"/>
+      <showFormAndWait form="betaprogram" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="onect/music" password-type="string"/>
+      <showFormAndWait form="NewMusic" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="shellmusic" password-type="string"/>
+      <showFormAndWait form="music" form-type="form"/>
+      <ifPasswordValidExists input="edit" input-type="object" not="" not-type="" password="riba" password-type="string"/>
+      <showFormAndWait form="riba" form-type="form"/>
+    </method>
+  </class>
+<class name="StartInWindows">
+    <method name="doButtonAltClick">
+      <exec command="edit" command-type="object" wait="" wait-type=""/>
+    </method>
+  <method name="doButtonClick">
+      <hideForm form="StartInWindows" form-type="form"/>
+    </method>
+  </class>
+</root>

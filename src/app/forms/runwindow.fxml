@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208" prefWidth="304" styleClass="">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="184" prefWidth="552" styleClass="">
   <children>
-    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="176" id="rectAlt" layoutX="296" layoutY="32" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="9"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="152" id="rectAlt" layoutX="544" layoutY="32" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="9"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
-    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="176" id="rect3" layoutX="0" layoutY="32" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="9"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="152" id="rect3" layoutX="0" layoutY="32" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="9"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
-    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="9" id="rect4" layoutX="0" layoutY="200" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="304"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="9" id="rect4" layoutX="0" layoutY="176" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="552"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect4" visible="1"/>
-    <Rectangle arcHeight="0" arcWidth="0" fill="#333333" focusTraversable="false" height="168" id="rect5" layoutX="8" layoutY="32" stroke="#333333" strokeType="INSIDE" strokeWidth="2" styleClass="" width="288"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="144" id="rect5" layoutX="8" layoutY="32" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="536"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
-    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="32" id="rect" layoutX="0" layoutY="0" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="304"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e64d" focusTraversable="false" height="32" id="rect" layoutX="0" layoutY="0" stroke="#e6e64d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="552"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" prefHeight="20" prefWidth="100" styleClass="label " text="Выполнить" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
       <font>
@@ -17,25 +17,25 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-    <FlatButton alignment="CENTER" color="#990000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#990000" id="button" layoutX="264" layoutY="0" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="X" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#990000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#990000" id="button" layoutX="512" layoutY="0" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="X" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="buttonAlt" layoutX="24" layoutY="152" prefHeight="32" prefWidth="48" styleClass="x-flat-button " text="OK" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="buttonAlt" layoutX="480" layoutY="128" prefHeight="32" prefWidth="48" styleClass="x-flat-button " text="OK" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="24" layoutY="40" prefHeight="40" prefWidth="184" styleClass="label " text="Напишите что вы хотите &#10;выполнить в системе." textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="24" layoutY="40" prefHeight="24" prefWidth="432" styleClass="label " text="Напишите что вы хотите запустить." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="24" layoutY="96" prefColumnCount="12" prefHeight="32" prefWidth="256" promptText="" styleClass="text-input text-field " text="">
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="24" layoutY="72" prefColumnCount="12" prefHeight="32" prefWidth="504" promptText="" styleClass="text-input text-field " text="">
       <font>
         <Font name="System Regular" size="15"/>
       </font>

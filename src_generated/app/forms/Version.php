@@ -100,6 +100,43 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
+    /**
+     * @event buttonAlt.click 
+     */
+    function doButtonAltClick(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->toast('ты нашел пасхалку!');
+
+        
+    }
+
+    /**
+     * @event buttonAlt.click-2x 
+     */
+    function doButtonAltClick2x(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->toast('ЗАЧЕМ ТАК ЖАТЬ!');
+
+        
+    }
+
+    /**
+     * @event buttonAlt.click-3x 
+     */
+    function doButtonAltClick3x(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->toast('ПОН');
+
+        
+    }
+
+
 
 
 

@@ -17,7 +17,7 @@
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
     <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="240" id="rect5" layoutX="8" layoutY="32" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="528"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="8" layoutY="232" prefHeight="32" prefWidth="528" styleClass="x-flat-button " text="Закрыть BlopShell" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="312" layoutY="104" prefHeight="32" prefWidth="184" styleClass="x-flat-button " text="Закрыть BlopShell" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>
@@ -35,7 +35,7 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
-    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="buttonAlt" layoutX="8" layoutY="192" prefHeight="32" prefWidth="528" styleClass="x-flat-button " text="Перезапуск BlopShell" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="buttonAlt" layoutX="312" layoutY="64" prefHeight="32" prefWidth="184" styleClass="x-flat-button " text="Перезапуск BlopShell" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="15"/>
       </font>

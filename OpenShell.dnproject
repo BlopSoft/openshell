@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Admin" authorOS="Windows 7" createdAt="1480488871172" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="BlopShell" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1723910149266">
+<project author="Admin" authorOS="Windows 7" createdAt="1480488871172" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="OpenShell" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1724044890802">
   <openedFiles>
-  <file src="BlopShell.dnproject"/>
+  <file src="OpenShell.dnproject"/>
     <file src="src/app/forms/music.php"/>
     <file src="src/app/forms/LogonShell_1.php"/>
-    <file selected="1" src="src/app/forms/LogonShell_2.php"/>
+    <file src="src/app/forms/LogonShell_2.php"/>
     <file src="src/app/forms/devlist.php"/>
     <file src="src/app/forms/runwindow.php"/>
     <file src="src/app/forms/error_screen2.php"/>
@@ -16,7 +16,7 @@
     <file src="src/app/forms/NewMusic.php"/>
     <file src="src/app/forms/error_screen1.php"/>
     <file src="src/app/forms/accountmanaging.php"/>
-    <file src="src/app/forms/blopstore.php"/>
+    <file selected="1" src="src/app/forms/blopstore.php"/>
     <file src="src/app/forms/betaprogram.php"/>
     <file src="src/app/forms/desktop.php"/>
     <file src="src/app/forms/crashlog.php"/>

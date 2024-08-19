@@ -44,5 +44,14 @@
   <method name="doLabel3Click">
       <showFormAndWait form="license" form-type="form"/>
     </method>
+  <method name="doButtonAltClick">
+      <toast value="ты нашел пасхалку!" value-type="string"/>
+    </method>
+  <method name="doButtonAltClick2x">
+      <toast value="ЗАЧЕМ ТАК ЖАТЬ!" value-type="string"/>
+    </method>
+  <method name="doButtonAltClick3x">
+      <toast value="ПОН" value-type="string"/>
+    </method>
   </class>
 </root>

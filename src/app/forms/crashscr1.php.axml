@@ -38,8 +38,12 @@
   </class>
 <class name="crashscr1">
     
+  
+  
   <method name="doConstruct">
       <fullScreenEnable/>
+      <hideForm form="Screen" form-type="form"/>
+      <hideForm form="MainForm" form-type="form"/>
       <showFormAndWait form="crashscr2" form-type="form"/>
     </method>
   </class>

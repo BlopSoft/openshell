@@ -76,6 +76,31 @@ class Version extends AbstractForm
         
     }
 
+    /**
+     * @event buttonAlt.click 
+     */
+    function doButtonAltClick(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event buttonAlt.click-2x 
+     */
+    function doButtonAltClick2x(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event buttonAlt.click-3x 
+     */
+    function doButtonAltClick3x(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+
 
 
 

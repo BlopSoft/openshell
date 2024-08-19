@@ -20,17 +20,6 @@ class Settings extends AbstractForm
 
 
 
-    /**
-     * @event button.click 
-     */
-    function doButtonClick(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		app()->showFormAndWait('Version');
-
-        
-    }
 
 
     /**
@@ -46,6 +35,49 @@ $e = $event ?: $e; // legacy code from 16 rc-2
     }
 
 
+
+
+
+
+
+
+    /**
+     * @event image.click 
+     */
+    function doImageClick(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->toast('да это ты');
+
+        
+    }
+
+
+    /**
+     * @event button10.click 
+     */
+    function doButton10Click(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('Version');
+
+        
+    }
+
+    /**
+     * @event button.click 
+     */
+    function doButtonClick(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('devlist');
+
+        
+    }
+
     /**
      * @event button5.click 
      */
@@ -53,7 +85,19 @@ $e = $event ?: $e; // legacy code from 16 rc-2
     {    
 $e = $event ?: $e; // legacy code from 16 rc-2
 
-		app()->showFormAndWait('devlist');
+		app()->showFormAndWait('updates');
+
+        
+    }
+
+    /**
+     * @event button4.click 
+     */
+    function doButton4Click(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('adds');
 
         
     }
@@ -65,7 +109,7 @@ $e = $event ?: $e; // legacy code from 16 rc-2
     {    
 $e = $event ?: $e; // legacy code from 16 rc-2
 
-		app()->showFormAndWait('updates');
+		app()->showFormAndWait('Mobile_Emulator');
 
         
     }
@@ -96,45 +140,9 @@ $e = $event ?: $e; // legacy code from 16 rc-2
     }
 
     /**
-     * @event button4.click 
-     */
-    function doButton4Click(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		app()->showFormAndWait('adds');
-
-        
-    }
-
-    /**
      * @event button8.click 
      */
     function doButton8Click(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		app()->showFormAndWait('Mobile_Emulator');
-
-        
-    }
-
-    /**
-     * @event image.click 
-     */
-    function doImageClick(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		$this->toast('да это ты');
-
-        
-    }
-
-    /**
-     * @event button9.click 
-     */
-    function doButton9Click(UXMouseEvent $e = null)
     {    
 $e = $event ?: $e; // legacy code from 16 rc-2
 

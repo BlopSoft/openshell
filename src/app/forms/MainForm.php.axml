@@ -70,5 +70,16 @@
   <method name="doButton12Click">
       <showFormAndWait form="onegram" form-type="form"/>
     </method>
+  
+  <method name="doButton13Click">
+      <showFormAndWait form="runwindow" form-type="form"/>
+    </method>
+  
+  <method name="doButton14Click">
+      <showFormAndWait form="StartInWindows" form-type="form"/>
+    </method>
+  <method name="doButton15Click">
+      <showFormAndWait form="StartInWindows" form-type="form"/>
+    </method>
   </class>
 </root>

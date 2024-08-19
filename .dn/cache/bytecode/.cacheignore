@@ -2,6 +2,7 @@
 .debug/preloader.php
 app/forms/accountmanaging.php
 app/forms/adds.php
+app/forms/App.php
 app/forms/betaprogram.php
 app/forms/BlopConnect.php
 app/forms/blopstore.php
@@ -16,6 +17,7 @@ app/forms/desktop.php
 app/forms/devlist.php
 app/forms/error_screen1.php
 app/forms/error_screen2.php
+app/forms/HTML_Tester.php
 app/forms/license.php
 app/forms/LogonShell_1.php
 app/forms/LogonShell_2.php
@@ -31,6 +33,7 @@ app/forms/Screen.php
 app/forms/Settings.php
 app/forms/shellcompat.php
 app/forms/sleep_mode.php
+app/forms/StartInWindows.php
 app/forms/startmenu.php
 app/forms/updates.php
 app/forms/Version.php

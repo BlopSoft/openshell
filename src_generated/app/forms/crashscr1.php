@@ -18,6 +18,8 @@ class crashscr1 extends AbstractForm
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$this->getContextForm()->fullScreen = true;
+		app()->hideForm('Screen');
+		app()->hideForm('MainForm');
 		app()->showFormAndWait('crashscr2');
 
         
